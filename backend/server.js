@@ -7,7 +7,11 @@ const ACTIONS = require("./Actions");
 const cors =require("cors")
 
 const server = http.createServer(app);
-const io = new Server(server);
+const io = new Server(server,{
+    cors:{
+        origin:"https://sync-code-three.vercel.app/"
+    }
+});
 app.use(cors())
 // middleware
 
