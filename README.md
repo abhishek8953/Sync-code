@@ -1,3 +1,1 @@
-### Demo
-
-https://code-sync.codersgyan.com/
+url=https://sync-code-kappa.vercel.app/
